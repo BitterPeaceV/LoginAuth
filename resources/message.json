@@ -1,0 +1,11 @@
+{
+    "login.failed": "%FIX%\n&cパスワードが違います。",
+    "login.not.required": "%FIX% &fログインする必要はありません。",
+    "login.success": "%FIX% &fログインが完了しました。",
+    "player.only": "%FIX% &fこのコマンドはプレイヤーのみ使用できます。",
+    "register.complete": "%FIX%\n&fアカウント登録が完了しました。\nあなたのパスワードは&c %1 &fです。\nスクリーンショット等で忘れないようして下さい。",
+    "register.failed": "%FIX%\n&fアカウントを登録出来ませんでした。\nもう一度 &c/auth register 好きなパスワード(半角英数字のみ) \n&fを入力して下さい。",
+    "register.not.required": "%FIX% &fアカウントを登録する必要はありません。",
+    "request.password": "%FIX%\n&c/auth login パスワード &fで認証を行って下さい。",
+    "request.registration": "%FIX%\n&fこのサーバーではパスワード認証を行っております。\n&c/auth register 好きなパスワード(半角英数字のみ)&f\nでアカウント登録を行ってください。"
+}

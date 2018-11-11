@@ -1,0 +1,22 @@
+name: LoginAuth
+main: BitterPeaceV\LoginAuth\LoginAuth
+version: 1.0.0
+api: [4.0.0]
+load: POSTWORLD
+author: BitterPeaceV
+description: パスワードを保存しないログインシステム
+commands:
+ auth:
+  description: LoginAuthのコマンド
+  usage: "/auth <register | login> <パスワード(半角英数字のみ)>"
+  permission: loginauth.command.auth
+permissions:
+ loginauth:
+  default: op
+  children:
+   loginauth.command:
+    default: op
+    children:
+     loginauth.command.auth:
+      default: op
+      description: "Allows authorizing"
